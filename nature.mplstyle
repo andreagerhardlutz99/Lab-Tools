@@ -1,0 +1,55 @@
+### Matplotlib style for scientific plotting
+### Based on 'science' by https://github.com/garrettj403/SciencePlots
+### Edited version for personal use by Andrea Gerhard Lutz
+### Use this variant for fast visualization
+
+### Axes
+axes.prop_cycle : cycler('color', ['E64B35', '4DBBD5', '00A087', '3C5488', 'F39B7F', '8491B4', '91D1C2', 'DC0000', '7E6148', 'B09C85'])
+axes.grid : true
+
+### Lines
+axes.linewidth : 0.5
+grid.linewidth : 0.5
+lines.linewidth : 1.
+
+### Patches and Grid
+patch.antialiased : True
+grid.color : d8d8d8
+
+### Ticks
+xtick.direction : in
+xtick.major.size : 3
+xtick.major.width : 0.5
+xtick.minor.size : 1.5
+xtick.minor.width : 0.5
+xtick.minor.visible : True
+xtick.top : True
+
+ytick.direction : in
+ytick.major.size : 3
+ytick.major.width : 0.5
+ytick.minor.size : 1.5
+ytick.minor.width : 0.5
+ytick.minor.visible : True
+ytick.right : True
+
+### Legend
+legend.frameon : True
+legend.fontsize : 14.5
+legend.framealpha : 0.7
+
+### Errorbar Plots
+errorbar.capsize : 1.5
+
+### Figure
+figure.figsize : 7, 5.25
+figure.dpi : 125
+figure.autolayout: True
+savefig.bbox : tight
+savefig.pad_inches : 0.05
+
+### Fonts
+font.serif : STIXGeneral
+font.family : serif
+font.size : 14.5
+mathtext.fontset : stix
